@@ -1,7 +1,8 @@
 import './app.css';
+import VideoLists from './components/videoLists';
 
 function App() {
-  return <h1>Hello :)</h1>;
+  return <VideoLists />;
 }
 
 export default App;
