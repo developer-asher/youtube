@@ -1,0 +1,43 @@
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #eee;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.logo__iamge {
+  font-size: 40px;
+  color: #f00;
+}
+.logo__name {
+  display: inline-block;
+  margin-left: 5px;
+  /* color: #fff; */
+}
+
+#search__bar {
+  border: 1px solid #ccc;
+  border-right: none;
+  padding: 2px 5px;
+  line-height: 30px;
+  font-size: 17px;
+  vertical-align: middle;
+}
+.search__button {
+  border: 1px solid #ccc;
+  padding: 2px 15px;
+  line-height: 30px;
+  cursor: pointer;
+}
+.search__button i {
+  font-size: 20px;
+  vertical-align: middle;
+}
